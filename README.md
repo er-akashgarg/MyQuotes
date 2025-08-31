@@ -34,6 +34,7 @@ The project is structured using **Clean Architecture** with clear separation of 
 |-------------|---------------|
 | ![Screenshot 1](screenshots/ss1.png) | ![Screenshot 2](screenshots/ss2.png) |
 
+---
 
 ## 🌐 API Details
 Quotes are fetched from **DummyJSON Quotes API**.
@@ -48,6 +49,7 @@ Quotes are fetched from **DummyJSON Quotes API**.
      "author": "Benjamin Franklin"
   }
 
+---
 
 ## 🛠️ Tech Stack
 
