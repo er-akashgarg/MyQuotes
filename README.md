@@ -35,28 +35,29 @@ The project is structured using **Clean Architecture** with clear separation of 
 | ![Screenshot 1](screenshots/ss1.png) | ![Screenshot 2](screenshots/ss2.png) |
 
 
-## API Reference
+## 🌐 API Details
+Quotes are fetched from **DummyJSON Quotes API**.
 
-Quotes are fetched from DummyJSON Quotes API
+**Example Request:**
+    GET https://dummyjson.com/quotes/3
 
-Example: GET https://dummyjson.com/quotes/3
-
-{
-  "id": 3,
-  "quote": "Time is money.",
-  "author": "Benjamin Franklin"
-}
-
+**Example Response:**
+    {
+     "id": 3,
+     "quote": "Time is money.",
+     "author": "Benjamin Franklin"
+  }
 
 
-🎯 Purpose
+## 🛠️ Tech Stack
 
-This is a sample project created for practice and learning:
+Kotlin – Primary language
 
-Jetpack Compose UI development
+Jetpack Compose – UI toolkit
 
-Implementing Clean Architecture & MVVM
+Flow & Coroutines – Reactive + async programming
 
-Understanding API integration with Retrofit + Flow
+MVVM + Clean Architecture – Scalable architecture
 
-Open-source contribution and portfolio project
+Retrofit + OkHttp – Networking
+
